@@ -1,0 +1,18 @@
+{
+    "name": "adapt-concise-menuNext",
+    "repository": "git://github.com/peteburch223/adapt-concise-menuNext.git",
+    "framework": ">=2.0.14",
+    "version": "1.0.0",
+    "homepage": "https://github.com/peteburch223/adapt-concise-menuNext",
+    "issues": "https://github.com/adaptlearning/adapt_framework/issues",
+    "displayName": "Menu Next",
+    "extension": "menuNext",
+    "description": "An extension to enable navigating to the next page from the navigation bar",
+    "main": "/js/adapt-concise-menuNext.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_menuNext"
+}
