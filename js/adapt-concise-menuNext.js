@@ -31,7 +31,7 @@ define([
     navigateToNext: function()
     {
       console.log("navigateToNext", this.currentView);
-      var next = getNextContentObject(this.currentView.model, true)
+      var next = getNextContentObject(this.currentView.model, false)
       var nextPageId = next && next.get("_id");
       if (nextPageId) {
           Backbone.history.navigate('#/id/' + nextPageId, {trigger: true});
